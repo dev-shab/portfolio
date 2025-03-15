@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
+import LoadingScreen from "./components/LoadingScreen";
 
 const App = () => {
-  return <div className="text-3xl">App</div>;
+  const [isLoading, setIsLoading] = useState(false);
+  return (
+    <>{!isLoading && <LoadingScreen onComplete={() => setIsLoading(true)} />}</>
+  );
 };
 
 export default App;

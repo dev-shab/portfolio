@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import MobileMenu from "./components/MobileMenu";
 import Home from "./sections/Home";
 import About from "./sections/About";
+import Projects from "./sections/Projects";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -21,6 +22,7 @@ const App = () => {
         <MobileMenu isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
         <Home />
         <About />
+        <Projects />
       </div>
     </>
   );

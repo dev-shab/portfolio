@@ -21,7 +21,7 @@ const Projects = () => {
               >
                 <h3 className="text-xl font-bold mb-2">{title}</h3>
                 <p className="text-gray-400 mb-4">{description}</p>
-                <div>
+                <div className="flex flex-wrap">
                   {technologies.map((tech) => (
                     <span
                       key={tech}

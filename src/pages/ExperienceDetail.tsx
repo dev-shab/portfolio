@@ -12,7 +12,7 @@ export function ExperienceDetail() {
   const entry = entries[index];
 
   useDocumentTitle(
-    entry ? `${entry.company} — Shabreesh Nair` : 'Not found — Shabreesh Nair'
+    entry ? `${entry.company} - Shabreesh Nair` : 'Not found - Shabreesh Nair'
   );
 
   if (!entry) return <Navigate to="/404" replace />;

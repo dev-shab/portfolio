@@ -44,7 +44,7 @@ export function Hero() {
         <Terminal
           command="whoami --verbose"
           output={outputLines}
-          title="shabreesh@portfolio — bash"
+          title="shabreesh@portfolio - bash"
         />
       </div>
     </section>

@@ -11,7 +11,7 @@
     "current": true,
     "summary": "Owning end-to-end delivery of PACS imaging workflows on a healthcare platform serving 10,000 users across 100 clinical research sites.",
     "achievements": [
-      "Built a CLI-based Lambda scaffolding tool generating function boilerplate from user input — created 40+ Lambda functions, cut new-service onboarding time by 75%, reduced infra deployment failures to zero",
+      "Built a CLI-based Lambda scaffolding tool generating function boilerplate from user input - created 40+ Lambda functions, cut new-service onboarding time by 75%, reduced infra deployment failures to zero",
       "Owned end-to-end delivery of PACS imaging workflows (Manage Participants, Project Manager) for a platform serving 10,000 users across 100 clinical research sites",
       "Delivered 17+ production features on React + Node.js + Express + GraphQL; implemented feature flags for controlled rollouts and Permission-Based Access Control",
       "Mentored engineers on GraphQL patterns, AWS Lambda architecture, and frontend best practices; introduced code review standards adopted across the team"

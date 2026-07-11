@@ -1,4 +1,4 @@
-# Shabreesh Nair — Portfolio
+# Shabreesh Nair - Portfolio
 
 React + TypeScript + Tailwind + React Router, styled as a dev-tool / terminal theme.
 
@@ -18,18 +18,18 @@ npm run build
 npm run preview   # to test the production build locally
 ```
 
-`npm run build` outputs static files to `dist/` — deployable to Vercel, Netlify,
+`npm run build` outputs static files to `dist/` - deployable to Vercel, Netlify,
 GitHub Pages, or any static host.
 
 ## Editing content
 
-All resume content lives in `src/data/*.json` — no component code needs to
+All resume content lives in `src/data/*.json` - no component code needs to
 change to update your info:
 
-- `profile.json` — name, tagline, summary, contact links
-- `experience.json` — one entry per role; `slug` powers the `/experience/:slug`
+- `profile.json` - name, tagline, summary, contact links
+- `experience.json` - one entry per role; `slug` powers the `/experience/:slug`
   route, `achievements` render as the diff lines, `stack` renders as tags
-- `skills.json` — grouped skill categories
+- `skills.json` - grouped skill categories
 - `education.json`, `certifications.json`, `highlights.json`
 
 ## Project structure
@@ -46,6 +46,7 @@ src/
 ## Deploying
 
 Easiest options:
+
 - **Vercel**: import the repo, framework preset "Vite", no config needed.
 - **Netlify**: build command `npm run build`, publish directory `dist`.
 - **GitHub Pages**: add `base: '/your-repo-name/'` to `vite.config.ts`, then

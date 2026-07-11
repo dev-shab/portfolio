@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { useDocumentTitle } from '@/lib/useDocumentTitle';
 
 export function NotFound() {
-  useDocumentTitle('404 — Shabreesh Nair');
+  useDocumentTitle('404 - Shabreesh Nair');
   return (
     <div className="mx-auto max-w-3xl px-6 py-32 text-center">
       <p className="font-mono text-accent text-sm">$ cd ./page-you-wanted</p>

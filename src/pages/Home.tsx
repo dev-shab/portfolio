@@ -6,7 +6,7 @@ import { useDocumentTitle } from '@/lib/useDocumentTitle';
 import { useScrollToTarget } from '@/lib/useScrollToTarget';
 
 export function Home() {
-  useDocumentTitle('Shabreesh Nair — Senior Full Stack Engineer');
+  useDocumentTitle('Shabreesh Nair - Senior Full Stack Engineer');
   useScrollToTarget();
   return (
     <div className="mx-auto max-w-5xl px-4 sm:px-6">

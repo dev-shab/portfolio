@@ -1,0 +1,63 @@
+[
+  {
+    "category": "Languages",
+    "items": ["TypeScript", "JavaScript", "HTML5", "CSS3"]
+  },
+  {
+    "category": "Frontend",
+    "items": [
+      "React.js",
+      "Redux",
+      "Zustand",
+      "GraphQL (Apollo)",
+      "Tailwind CSS",
+      "Shadcn/UI",
+      "Material UI",
+      "Vite",
+      "Webpack"
+    ]
+  },
+  {
+    "category": "Backend",
+    "items": [
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "MongoDB",
+      "DynamoDB",
+      "JWT Auth",
+      "GraphQL (server-side)"
+    ]
+  },
+  {
+    "category": "Cloud & DevOps",
+    "items": [
+      "AWS (Certified Developer Associate)",
+      "CI/CD (Jenkins)",
+      "Feature Flags",
+      "New Relic"
+    ]
+  },
+  {
+    "category": "Performance & QA",
+    "items": [
+      "Web Vitals",
+      "Lighthouse",
+      "Code Splitting",
+      "Lazy Loading",
+      "Jest",
+      "Jasmine",
+      "WDIO"
+    ]
+  },
+  {
+    "category": "Leadership",
+    "items": [
+      "Architecture Ownership",
+      "System Design",
+      "Team Mentoring",
+      "Code Reviews",
+      "Agile/Scrum"
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    background-color: #10141c;
+    background-image: radial-gradient(
+      ellipse 80% 50% at 50% -20%,
+      rgba(242, 169, 59, 0.08),
+      transparent
+    );
+  }
+  ::selection {
+    background-color: #f2a93b;
+    color: #10141c;
+  }
+  /* visible keyboard focus, always */
+  a:focus-visible,
+  button:focus-visible,
+  [tabindex]:focus-visible {
+    outline: 2px solid #f2a93b;
+    outline-offset: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

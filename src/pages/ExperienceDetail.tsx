@@ -23,7 +23,8 @@ export function ExperienceDetail() {
   return (
     <div className="mx-auto max-w-3xl px-4 sm:px-6 py-12 sm:py-16">
       <Link
-        to="/#experience"
+        to="/"
+        state={{ scrollTo: 'experience' }}
         className="inline-flex items-center gap-2 rounded-md border border-border bg-surface px-3 py-1.5 font-mono text-sm text-text hover:border-accent hover:text-accent transition-colors"
       >
         <ArrowLeft size={16} /> back to experience

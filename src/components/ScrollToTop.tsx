@@ -2,10 +2,11 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 export function ScrollToTop() {
-  const { pathname, hash } = useLocation();
+  const { pathname, state } = useLocation();
 
   useEffect(() => {
-    if (hash) return; // let useScrollToHash handle anchor-based scrolling
+    const hasScrollTarget = !!(state as { scrollTo?: string } | null)?.scrollTo;
+    if (hasScrollTarget) return;
     window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
   }, [pathname]);
 

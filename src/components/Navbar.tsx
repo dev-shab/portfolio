@@ -14,10 +14,10 @@ import {
 import profile from '@/data/profile.json';
 
 const navItems = [
-  { label: 'about', href: '/#about', icon: User },
-  { label: 'experience', href: '/#experience', icon: Briefcase },
-  { label: 'skills', href: '/#skills', icon: Code2 },
-  { label: 'contact', href: '/#contact', icon: Send },
+  { label: 'about', id: 'about', icon: User },
+  { label: 'experience', id: 'experience', icon: Briefcase },
+  { label: 'skills', id: 'skills', icon: Code2 },
+  { label: 'contact', id: 'contact', icon: Send },
 ];
 
 export function Navbar() {
@@ -28,6 +28,7 @@ export function Navbar() {
       <div className="mx-auto flex max-w-5xl items-center justify-between px-4 sm:px-6 py-4">
         <Link
           to="/"
+          state={{ scrollTo: 'about' }}
           onClick={() => setOpen(false)}
           className="font-mono text-sm text-text hover:text-accent transition-colors"
         >
@@ -42,7 +43,8 @@ export function Navbar() {
             return (
               <Link
                 key={item.label}
-                to={item.href}
+                to={'/'}
+                state={{ scrollTo: item.id }}
                 className="flex items-center gap-1.5 text-muted hover:text-accent transition-colors"
               >
                 <Icon size={14} />
@@ -99,7 +101,8 @@ export function Navbar() {
             return (
               <Link
                 key={item.label}
-                to={item.href}
+                to={'/'}
+                state={{ scrollTo: item.id }}
                 onClick={() => setOpen(false)}
                 className="flex items-center gap-2 text-muted hover:text-accent transition-colors"
               >

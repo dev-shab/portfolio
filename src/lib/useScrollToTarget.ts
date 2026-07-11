@@ -1,15 +1,15 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
-export function useScrollToHash() {
+export function useScrollToTarget() {
   const location = useLocation();
 
   useEffect(() => {
-    if (!location.hash) return;
-    const id = location.hash.slice(1);
+    const target = (location.state as { scrollTo?: string } | null)?.scrollTo;
+    if (!target) return;
     const timeout = setTimeout(() => {
       document
-        .getElementById(id)
+        .getElementById(target)
         ?.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }, 60);
     return () => clearTimeout(timeout);

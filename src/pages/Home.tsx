@@ -3,11 +3,11 @@ import { Experience } from '@/components/Experience';
 import { Skills } from '@/components/Skills';
 import { Contact } from '@/components/Contact';
 import { useDocumentTitle } from '@/lib/useDocumentTitle';
-import { useScrollToHash } from '@/lib/useScrollToHash';
+import { useScrollToTarget } from '@/lib/useScrollToTarget';
 
 export function Home() {
   useDocumentTitle('Shabreesh Nair — Senior Full Stack Engineer');
-  useScrollToHash();
+  useScrollToTarget();
   return (
     <div className="mx-auto max-w-5xl px-4 sm:px-6">
       <Hero />

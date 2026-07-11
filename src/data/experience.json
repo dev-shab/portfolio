@@ -35,7 +35,13 @@
       "Built Admin Portal and Analytics Dashboard enabling data-driven event management; maintained 80%+ test coverage across all critical modules",
       "Designed role-based routing and secure navigation architecture, adopted as the platform-wide access control standard"
     ],
-    "stack": ["React", "Redux", "Analytics Dashboards", "Role-Based Routing"]
+    "stack": [
+      "React",
+      "Redux",
+      "Analytics Dashboards",
+      "REST APIs",
+      "Role-Based Routing"
+    ]
   },
   {
     "slug": "capgemini-mercedesbenz",
@@ -54,7 +60,14 @@
       "Raised test coverage from 60% to 80%, eliminating a category of defects that previously leaked into production",
       "Standardized code review processes and mentored junior engineers; practices adopted as team-wide engineering norms"
     ],
-    "stack": ["React", "Node.js", "Express", "MongoDB", "CRUD Architecture"]
+    "stack": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "REST APIs",
+      "CRUD Architecture"
+    ]
   },
   {
     "slug": "oracle-cerner",
